@@ -1,0 +1,1548 @@
+
+/* CSS Document */
+
+/* new categories css menu apperance*/
+
+
+.treemenudiv:hover {
+	
+	background-color:#000;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.button1 {
+	display: block;
+	font-size: 14px;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/button.gif); 
+	background-repeat: no-repeat;
+	
+}
+
+.button1:hover {
+	display: block;
+	color: #2587CC;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/buttonhover.gif); 
+	background-repeat: no-repeat;
+}
+
+.button2 {
+	display: block;
+	font-size: 14px;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/button.gif); 
+	background-repeat: no-repeat;
+}
+
+.button2:hover {
+	display: block;
+	color: #eb4a8b;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/buttonhover.gif); 
+	background-repeat: no-repeat;
+}
+
+.button3 {
+	display: block;
+	font-size: 14px;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/button.gif); 
+	background-repeat: no-repeat;
+}
+
+.button3:hover {
+	display: block;
+	color: #b4bc35;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/buttonhover.gif); 
+	background-repeat: no-repeat;
+}
+
+.item1 {
+	display: block;
+	background: #2587CC;
+	font-size: 11px;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+	background-image: url(images/infobox/itemblue.gif); 
+	background-repeat: no-repeat;
+}
+
+.item1:hover {
+	display: block;
+	color: #2587CC;
+	font-size: 14px;
+	background: white;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+}
+
+.item2 {
+	display: block;
+	background: #eb4a8b;
+	font-size: 11px;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+	background-image: url(images/infobox/itempink.gif); 
+	background-repeat: no-repeat;
+}
+
+.item2:hover {
+	display: block;
+	color: #eb4a8b;
+	font-size: 14px;
+	background: white;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+}
+
+.item3 {
+	display: block;
+	background: #b4bc35;
+	font-size: 11px;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+	background-image: url(images/infobox/itemgreen.gif); 
+	background-repeat: no-repeat;
+}
+
+.item3:hover {
+    	display: block;
+	color: #b4bc35;
+	font-size: 14px;
+	background: white;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+} 
+
+h1 {
+	text-transform:uppercase;
+	font-family:"Open Sans", sans-serif;
+	color:#464646;
+	font-weight:lighter;
+	font-size:30px;
+}
+
+
+h2 {
+	
+	font-family:"Open Sans", sans-serif;
+	color:#464646;
+	font-weight:bold;
+	font-size:30px;
+}
+/*
+
+  $Id: stylesheet.css,v 1.56 2003/06/30 20:04:02 hpdl Exp $
+
+
+
+ONTC Ecom - Developers Version
+
+  http://www.ontc.eu
+
+
+
+  Copyright (c) 2015/3 Francesco Rossi
+
+
+
+  Released under the GNU General Public License
+
+*/
+
+/*This is the Infobox text style*/
+
+.boxText {
+	font-family:'Open Sans', sans-serif;
+ color:#333;
+font-size: 18px;
+margin-top: 7px;
+
+padding-right: 5px;
+  }
+
+
+/*This is the Error Messages style with pink background*/
+
+.errorBox { font-family : 'Open Sans', sans-serif; font-size : 10px; background: #ca002a; font-weight: bold; }
+
+
+
+/*This is the Warning Messages red font style*/
+
+.stockWarning { font-family : "Open Sans", sans-serif; font-size : 12px; color: #cc0033; }
+
+td.stockWarning { vertical-align: top;
+	 border-style: solid;
+	border-right: 0px;
+  border-color: #e8e8e8; border-width: 5px; background-color: #fff;}
+
+
+/*This is the Product Notifications green background stylet*/
+
+.productsNotifications { background: #f2fff7; }
+
+
+
+/*This is the Order Edit style with green underline*/
+
+.orderEdit { font-family : 'Open Sans', sans-serif; font-size : 10px; color: #70d250; text-decoration: underline; }
+
+
+input {
+	
+	background-position:top;
+	background-repeat:repeat-x;
+	background-color:#e4eaf0;
+	
+	border-width:0px;
+	font-family:"Open Sans", sans-serif;
+	color: #716e6e;
+	margin:0px;
+	
+	
+}
+input:hover{
+	background-color:#b3c833;
+}
+
+form {
+	font-family:"Open Sans", sans-serif;
+	color: #fff;
+	
+	font-size:16px;
+}
+
+A.form {
+	font-size:9px;
+	color:#FFF;
+}
+	
+/*This is the General Page 
+ Style with white background, black text, flush left margins*/
+
+body {
+	background: #fff;
+	height: 100%;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+
+/*This is the Default Hyperlink Style with black text and no underlines*/
+
+
+
+
+A.nav {
+
+  color: #714D09;
+
+  text-decoration: none;
+
+}
+A.boxText {
+	color: #000;
+	font-family:"Open Sans", sans-serif;
+	font-size:14px;
+}
+A.boxText:hover {
+	background-color: #ca002a;
+	color:#FFF;
+	font-family:"Open Sans", sans-serif;
+	font-size:14px;
+	
+}
+
+/*This is the Default ACTIVE Hyperlink Style when a mouse is hovering over it, with dusty blue text and an underline*/
+
+
+
+
+
+
+/*Forms display within the page rather than opening a new window*/
+
+FORM {
+
+	display: inline;
+
+}
+
+
+
+TR.header {
+
+  background: #ffffff;
+
+}
+
+/*Infobox Template for STS-This is the TOP GRAY BAR BACKGROUND STYLE with Top > Catalog on the left*/
+
+TR.headerNavigation {
+
+font-family:"Open Sans", sans-serif;
+color:#000;
+font-size:12px;
+text-transform:uppercase;
+
+}
+
+
+
+
+/*This is the TOP GRAY BAR FONT STYLE with Top > Catalog on the left*/
+
+TD.headerNavigation {
+  font-family:  'Open Sans', sans-serif;
+  font-size: 10px;
+  color: #9f968f;
+
+  text-transform:capitalize;
+}
+
+
+
+/*This is the TOP GRAY BAR HYPERLINK STYLE SETTING LINKS TO WHITE */
+
+A.headerNavigation { 
+
+color: #f4f4f4;
+text-decoration: none;
+background-color:#ed0021;
+padding-left:2px;
+padding-right: 2px;
+text-transform:uppercase;
+}
+
+
+
+/*This is the TOP GRAY BAR HYPERLINK STYLE SETTING LINKS TO WHITE when the cursor is over them*/
+
+A.headerNavigation:hover {
+
+
+color: #fff;
+text-decoration: none;
+background-color: #ca002a;
+text-transform:uppercase;
+
+
+}
+
+
+/*This is the ERROR Background style for a row with a red background*/
+
+TR.headerError {
+
+  background: #ff0000;
+
+}
+
+
+
+/*This is the ERROR Background style for a cell with a red background*/
+
+TD.headerError {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 12px;
+
+  background: #ff0000;
+
+  color: #ffffff;
+
+  font-weight : bold;
+
+  text-align : center;
+
+}
+
+
+
+/*This is a ROW Background style with a neon green background*/
+
+TR.headerInfo {
+
+  background: #00ff00;
+
+}
+
+
+
+/*This is a CELL Background style with a neon green background*/
+
+TD.headerInfo {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 12px;
+
+  background: #00ff00;
+
+  color: #ffffff;
+
+  font-weight: bold;
+
+  text-align: center;
+
+}
+
+
+
+/*This is the GRAY BOTTOM BAR Row background*/
+
+TR.footer {
+
+  background: #bbc3d3;
+
+}
+
+
+
+/*This is the GRAY BOTTOM BAR Cell background*/
+
+TD.footer {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 10px;
+
+  background: #bbc3d3;
+
+  color: #ffffff;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is the INFOBOX Background Style, one shade darker than the Infobox Header color*/
+
+.infoBox {
+
+  background: #fff;
+padding: 10px;
+  border-top: solid 2px #e8e8e8;
+
+}
+
+
+
+/*Infobox Template for STS-This is the INFOBOX Contents Style, one shade lighter than the Infobox Header color*/
+
+.infoBoxContents {
+font-family: "Open Sans", sans-serif;
+font-size: 12px;
+
+text-transform:uppercase;
+text-decoration: none;
+color: #555;
+	
+
+}
+.infoBoxContents:hover {
+	color:#ab2e2c;
+	text-decoration: none;
+}
+SPAN.infoBoxContents {
+font-family: "Open Sans", sans-serif;
+font-size: 12px;
+
+text-transform:uppercase;
+text-decoration: none;
+color: #555;
+	
+
+}
+
+TD.infoBoxContents {
+font-family: "Open Sans", sans-serif;
+font-size: 12px;
+
+text-transform:uppercase;
+text-decoration: none;
+color: #555;
+	
+
+}
+
+TR.infoBoxContents {
+padding: 2px;
+border-spacing: 2px;
+ 
+}
+
+a.infoBoxContents {
+	font-family: "Open Sans", sans-serif;
+font-size: 15px;
+
+text-transform:uppercase;
+text-decoration: none;
+color: #555;
+
+}
+
+a.infoBoxContents:hover {
+	color:#ab2e2c;
+	text-decoration: none;
+}
+
+/*This is the INFOBOX Notice Style, a pale salmon color*/
+
+.infoBoxNotice {
+
+  background: #FF8E90;
+
+}
+
+
+
+/*This is the INFOBOX Notice Contents Style, a very pale salmon color*/
+
+.infoBoxNoticeContents {
+
+  background: #FFE6E6;
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 10px;
+
+}
+
+
+
+/*Infobox Templates for STS-This is the INFOBOX Heading Style, SAME AS HEADER AND FOOTER GRAY BARS*/
+
+TD.infoBoxHeading {
+
+
+
+	
+	font-family: "Open Sans", sans-serif;
+	
+font-weight: bold;
+	color: #000;
+text-transform:lowercase;
+	
+
+	
+
+}
+
+
+
+TD.infoBox, SPAN.infoBox {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 10px;
+
+}
+
+
+
+/*This is a GENERAL ROW Style for every other line of noted pages, a palest gray color*/
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+
+  background: #fff;
+
+}
+
+
+
+/*This is a GENERAL ROW Style for every other line of noted pages, the same palest gray color but allows you to alternate 2 colors if you wish*/
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+
+  background: #fff;
+
+}
+
+
+
+/*This is a GENERAL TABLE Style for product listing pages, a deeper gray color*/
+
+TABLE.productListing {
+
+  border: 5px;
+
+  border-style: solid;
+	border-right: 0px;
+  border-color: #e8e8e8;
+
+
+}
+
+
+
+/*This is the GRAY BAR Style for product listing pages, same deeper gray color as previous item*/
+
+.productListing-heading {
+
+  font-family:"Open Sans", sans-serif;
+
+font-size:14px;
+  background: #fff;
+padding: 10px;
+  color: #333333;
+
+  font-weight: bold;
+  text-transform:uppercase;
+
+}
+
+
+
+/*This is the FONT Style for product listing pages*/
+
+TD.productListing-data {
+
+ font-family:"Open Sans", sans-serif; font-size: 12px;  color:#000; 
+ 
+ 
+  padding: 10px;
+
+}
+
+
+
+/*This is the HYPERLINK Style for Results pages*/
+
+A.pageResults {
+
+  color: #0000FF;
+
+}
+
+
+
+/*This is the HYPERLINK Style for Results pages when the mouse is hovering over it*/
+
+A.pageResults:hover {
+
+  color: #0000FF;
+
+  background: #FFFF33;
+
+}
+
+
+
+/*This is the MAIN TEXT Style, a deeper gray*/
+
+TD.pageHeading, DIV.pageHeading {
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 24px;
+  text-transform:uppercase;
+text-shadow: #000 0px 1px 10px;
+  color: #FFF;
+
+}
+
+
+
+/*This is a Row Sub-bar Style, a very pale gray*/
+
+TR.subBar {
+
+  background: #f4f7fd;
+
+}
+
+
+
+/*This is a Cell Sub-bar Style, black default text*/
+
+TD.subBar {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 10px;
+
+  color: #333333;
+
+}
+
+
+
+/*This is a Cell and Paragraph Main Style*/
+
+TD.main, P.main {
+
+  font-family: "Open Sans", sans-serif;
+
+color: #000;
+
+  line-height: 1.5;
+  font-weight: normal;
+
+}
+
+A.main {
+	color: #fff;
+}
+
+/*This is a Cell, Span, and Paragraph Font Style*/
+
+TD.smallText {
+
+  font-family: "Open Sans", sans-serif;
+padding: 0px;
+ 
+text-transform:uppercase;
+
+  margin:5px;
+  border: dotted 1px #d4d4d4;
+  padding:5px;
+  background-color: #fff;
+  
+
+}
+SPAN.smallText , P.smallText
+{
+
+  font-family: "Open Sans", sans-serif;
+padding: 0px;
+
+ 
+  margin: 0px;
+  text-transform: uppercase;
+
+}
+
+A.smallText {
+color:#fff;
+background-color: #ca002a;
+border-radius: 4px;
+ padding: 4px; 
+text-decoration:none; 
+  font-size: 13px;
+  text-shadow: 0px 5px 0px #00000;
+  -webkit-text-shadow: 0px 5px 0px #00000;
+
+
+}
+
+A.smallText:hover {
+
+
+ background-color:#fb0539;
+
+  
+}
+/*This is a Cell Font Style in larger size with medium dusty blue font*/
+
+#nameprice {
+	
+	width:85%;
+	margin: 5px;
+	padding: 5px;
+	height: 50px;
+	
+}
+.price
+
+{
+float:right;
+	font-family: 'Open Sans', sans-serif;
+ color:#333;
+font-size: 18px;
+margin-top: 7px;
+
+padding-left: 5px;
+ border-left: dotted 1px #ab2e2c;
+
+}
+
+.prodName
+{
+	margin-top: 0px;
+	float:left;
+	width: 100%;
+	text-align:left;
+}
+
+a.prodText {
+	float:left;
+font-family: "Open Sans", sans-serif;
+font-size: 15px;
+width: 100%;
+text-align:left;
+text-decoration: none;
+color: #555;
+
+
+
+}
+a.prodText:hover {
+	
+	color: #ab2e2c;
+}
+
+/*This is a Cell Font Style in larger size with medium dusty blue font*/
+
+TD.accountCategory {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 13px;
+
+  color: #aabbdd;
+
+}
+
+
+
+/*This is a Cell Font Style in a bold larger size*/
+
+TD.fieldKey {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is a Cell Font Style in a bold larger size*/
+
+TD.fieldValue {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 12px;
+
+}
+
+
+
+/*This is a Table Heading Style in a bold larger size*/
+
+TD.tableHeading {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is a Span Font Style used for New Items in Cart in a BRIGHT RED FONT*/
+
+SPAN.newItemInCart {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 10px;
+
+  color: #ff0000;
+
+}
+
+
+
+/*This is a FORM STYLE used for checkboxes, input text, radio buttons, and drop-down boxes*/
+
+CHECKBOX, INPUT, RADIO, SELECT {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 11px;
+
+}
+
+checkbox {
+  border-style: solid;
+border-color: #ca002a;
+border-width: 5px;
+
+ 
+}
+
+/*This is a FORM STYLE used for text boxes where visitor enters free-form text*/
+
+TEXTAREA {
+
+  width: 100%;
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 11px;
+
+}
+
+
+
+/*This is a TEXT STYLE used for the "Greetings, Username! in a funny orange-salmon color*/
+
+SPAN.greetUser {
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 16px;
+
+  color: #ca002a;
+
+  
+
+}
+
+
+
+/*This is a FORM BACKGROUND AND BORDER STYLE with a very pale dusty blue background and deep dusty blue border*/
+
+TABLE.formArea {
+
+  background: #f1f9fe;
+
+  border-color: #7b9ebd;
+
+  border-style: solid;
+
+  border-width: 1px;
+
+}
+
+
+
+/*This is a FORM TEXT STYLE with slightly larger bold text*/
+
+TD.formAreaTitle {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is a SPAN PRODUCTS PAGE STYLE with a pale burgundy color font*/
+
+SPAN.markProductOutOfStock {
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 12px;
+
+  color: #c76170;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is a SPAN PRODUCT SPECIAL FONT STYLE in a bright red color*/
+
+SPAN.productSpecialPrice {
+
+  font-family: 'Open Sans', sans-serif;
+
+  color: #ff0000;
+
+}
+
+
+
+/*This is a SPAN ERROR TEXT STYLE in a bright red color*/
+
+SPAN.errorText {
+
+  font-family: 'Open Sans', sans-serif;
+
+  color: #ff0000;
+
+}
+
+
+
+.moduleRow { }
+
+.moduleRowOver { background-color: #D7E9F7; cursor: pointer; cursor: hand; }
+
+.moduleRowSelected { background-color: #fff; }
+
+
+
+.checkoutBarFrom, .checkoutBarTo { font-family: 'Open Sans', sans-serif; font-size: 10px; color: #8c8c8c; }
+
+.checkoutBarCurrent { font-family: 'Open Sans', sans-serif; font-size: 10px; color: #333333; }
+
+
+
+/* message box */
+
+
+
+.messageBox { font-family: 'Open Sans', sans-serif; font-size: 10px; }
+
+.messageStackError, .messageStackWarning { font-family: 'Open Sans', sans-serif; font-size: 10px; background-color: #ca002a; }
+
+.messageStackSuccess { font-family: 'Open Sans', sans-serif; font-size: 10px; background-color: #99ff00; }
+
+
+
+/* input requirement */
+
+
+
+.inputRequirement { font-family: 'Open Sans', sans-serif; font-size: 12px; color: #ca002a; text-transform:uppercase; }
+
+
+/*BOF - Zappo - Option Types v2 - Progress Bar */
+.progress{
+  width: 1px;
+  height: 12px;
+  color: grey;
+  font-size: 10px;
+ /* overflow: hidden; */
+  background-color: #bbc3d3;
+  padding-left: 5px;
+}
+.bar{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bbc3d3;
+}
+/*EOF - Zappo - Option Types v2 - Progress Bar */
+
+/*BOF - Zappo - Option Types v2 - ONE LINE - Preload Option Type Images */
+div#ImagePreload { display: none; }
+SPAN.productInfoSmall{font-family: 'Open Sans',sans-serif;font-size:10px;color:#333333;} 
+/*BOF Options as Images*/
+.zoek_resultaten  a img { border: none; border-width:0px;}
+img.zoek_resultaten { border: none; border-width:0px;}
+a.zoek_resultaten {
+	border:none;
+}
+#zoek_resultaten {
+		position:absolute;
+	border: 1px solid #999;
+	right:855px;
+	width:80px;
+	height:100px;
+	
+	z-index:20;
+
+}
+#div2 {
+	
+}
+
+
+/* BEGIN: CSS Buttons Everywhere */
+.cssButton {
+background-color: #b3c833;
+	
+	font-family: "Open Sans", sans serif;
+	font-size: 15px;
+	font-weight: 150;
+	padding: 3px;
+	overflow:visible;
+text-transform:uppercase;
+	text-align: center;
+	float: right;
+	color: #333;
+	cursor:pointer;
+	
+/*EOF Options as Images*/ 
+}
+.cssButton:hover {
+
+	color:#fff;
+	font-family: "Open Sans", sans serif;
+	font-size: 15px;
+	background-color:#6db33e;
+	overflow:visible;
+	padding: 3px;
+	text-align: center;
+	float: right;
+	cursor:pointer;
+	}
+/*EOF Options as Images*/
+
+/* TREE MENU */
+
+a.phplm {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+		font-size: 11px;
+		font-weight: 500;
+		padding: 1px;
+	
+	
+}
+a.phplm:hover {
+	text-decoration: none;
+	
+color: #ab2e2c;
+	padding: 1px;
+	
+}
+
+#mainlinks
+{
+	position:absolute;
+	top: 55px;
+	left: 0%;
+	width: 100%;
+		background-color: #000;
+	/* Fallback for web browsers that doesn't support RGBa */
+
+	background: rgb(0, 0, 0);
+	/* RGBa with 0.6 opacity */
+
+	background: rgba(0, 0, 0, 0.80);
+	height: 22px;
+	z-index: 11;
+	text-align:left;
+	-webkit-box-shadow: 0px 3px 10px #000;
+	-moz-box-shadow: 0px 3px 10px #000;
+	box-shadow: 0px 3px 10px #000;
+	border-bottom: dotted 1px #4e4e4e;
+}
+#mainlinkssub
+{
+position:absolute;
+	top: 57px;
+	
+	left: 2%;
+	
+	width: 97%;
+	
+	height: 22px;
+	z-index: 22;
+	text-align:left;
+	
+}
+
+
+.treemenudiv {
+	
+	background-color:#fff;
+
+	margin: 4px;
+	
+	padding: 0px;
+	width: 95%;
+	vertical-align: super;
+	
+  border: dotted 1px #d4d4d4;
+  padding:2px;
+
+	
+}
+
+.treemenudiv:hover {
+	
+	background-color:#f4f4f4;
+
+
+}
+
+
+.glossymenu{
+margin: 5px 0;
+padding: 0;
+width: 170px; /*width of menu*/
+border: 1px solid #9A9A9A;
+border-bottom-width: 0;
+}
+
+.glossymenu a.menuitem{
+background: black url(images/glossyback.gif) repeat-x bottom left;
+font: bold 14px  'Open Sans', sans-serif;
+color: white;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 4px 0;
+padding-left: 10px;
+text-decoration: none;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: white;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+background-image: url(images/glossyback2.gif);
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background: white;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+border-bottom: 1px solid blue;
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+font: normal 13px 'Open Sans', sans-serif;
+color: black;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 10px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+background: #DFDCCB;
+colorz: white;
+}
+
+
+/* magnifier */
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px 'Open Sans', sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
+/*** ESSENTIAL STYLES - This section controls menu behavior***/
+
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	text-align:center;
+	 margin: 0 auto;
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul {
+	background-image:url("http://www.schermaontc.com/ecom/images/pixel_trans.gif");
+	background-repeat:repeat;	
+	
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+
+
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			1.5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			0em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			0em; /* match ul width */
+	top:			0;
+}
+
+/*** MENU SKIN - this section styles appearance of the menu***/
+.navbar_bg{
+position:absolute;
+  list-style:none;  
+top: 15px;
+font-family: "Open Sans", sans-serif;
+font-weight:100;
+ right:2px;
+       
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+       
+        overflow:visible;
+}
+.current_0 {
+	font-size: 12px;
+	 margin: 0 auto;
+	 text-align:center;
+	 background-color: #BC0000;
+	 border-color:#FB0539;
+	 border-width: 1px;
+	 border-style: solid;
+	 
+	
+}
+/*** ESSENTIAL STYLES - This section controls menu behavior***/
+.sf-menu {
+	font-family: "Open Sans", sans-serif;
+font-weight:100;
+	margin-bottom:	1em;
+}
+
+.sf-menu a {
+	/* border-left:	1px solid #FFF; */
+	/* border-top:		1px solid #FFF; */
+	padding: 		.55em 0.55em;
+	text-decoration:none;
+}
+
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+color:	#FFFFFF;  /*#13a*/
+
+}
+
+.sf-menu li {
+
+background-color: #BC0000;
+border-radius: 0px;
+-moz-border-radius: 0px;
+font-family: "Open Sans", sans-serif;
+color:#fff;
+font-weight:100;	
+	-webkit-border-radius: 0px;
+margin: 2px;	
+ font-size: 11px;
+ border-color: #fb0539;
+ 
+}
+
+.sf-menu li li.current_1 {  /* positions 1st level subcategory*/
+position:relative;
+left:0em;
+border-top:1px solid #CA0002;
+}
+
+.sf-menu li li {  /* background of 1st level subcategory */
+	background:		#BC0000; /*#AABDE6*/
+	border-top:1px solid #FFFFFF;
+	border-top:1px solid #FFFFFF;
+}
+
+
+.sf-menu li li li.current_2 {/* positions 2nd level subcategory*/
+position:relative;
+left:-1em;
+top:1em;
+border-top:1px solid #FFFFFF;
+}
+
+.sf-menu li li li{  /*background of 1st 2dn level subcategory */
+	background:		#ACB4C4; /*#9AAEDB*/
+	border-top:1px solid #FFFFFF;
+}
+
+.sf-menu li li li li.current_3 {/* positions 3rd level subcategory*/
+position:relative;
+left:-1em;
+top:1em;
+border-top:1px solid #FFFFFF;
+}
+
+.sf-menu li li li li<applet code="(EmptyReference!)" width="100" height="100"></applet>{  /*background of 3rd level subcategory*/
+	background:		#ACB4C4;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:#fb0539;		/*#CFDEFF*/
+	outline:		0;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('../images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('../images/shadow.png') no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}

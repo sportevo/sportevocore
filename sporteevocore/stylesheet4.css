@@ -1,0 +1,1360 @@
+
+/* CSS Document */
+
+/* new categories css menu apperance*/
+
+a {
+	
+	text-decoration:none;
+}
+
+.button1 {
+	display: block;
+	font-size: 14px;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/button.gif); 
+	background-repeat: no-repeat;
+	
+}
+
+.button1:hover {
+	display: block;
+	color: #2587CC;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/buttonhover.gif); 
+	background-repeat: no-repeat;
+}
+
+.button2 {
+	display: block;
+	font-size: 14px;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/button.gif); 
+	background-repeat: no-repeat;
+}
+
+.button2:hover {
+	display: block;
+	color: #eb4a8b;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/buttonhover.gif); 
+	background-repeat: no-repeat;
+}
+
+.button3 {
+	display: block;
+	font-size: 14px;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/button.gif); 
+	background-repeat: no-repeat;
+}
+
+.button3:hover {
+	display: block;
+	color: #b4bc35;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 140px;
+	text-align: center;
+	background-image: url(images/infobox/buttonhover.gif); 
+	background-repeat: no-repeat;
+}
+
+.item1 {
+	display: block;
+	background: #2587CC;
+	font-size: 11px;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+	background-image: url(images/infobox/itemblue.gif); 
+	background-repeat: no-repeat;
+}
+
+.item1:hover {
+	display: block;
+	color: #2587CC;
+	font-size: 14px;
+	background: white;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+}
+
+.item2 {
+	display: block;
+	background: #eb4a8b;
+	font-size: 11px;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+	background-image: url(images/infobox/itempink.gif); 
+	background-repeat: no-repeat;
+}
+
+.item2:hover {
+	display: block;
+	color: #eb4a8b;
+	font-size: 14px;
+	background: white;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+}
+
+.item3 {
+	display: block;
+	background: #b4bc35;
+	font-size: 11px;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+	background-image: url(images/infobox/itemgreen.gif); 
+	background-repeat: no-repeat;
+}
+
+.item3:hover {
+    	display: block;
+	color: #b4bc35;
+	font-size: 14px;
+	background: white;
+	line-height: 19px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	width: 139px;
+	text-align: center;
+} 
+
+h1 {
+	text-transform:uppercase;
+	font-family:"Helvetica", sans-serif;
+	color:#464646;
+	font-weight:lighter;
+	font-size:30px;
+}
+
+h2 {
+	
+	font-family:"Helvetica", sans-serif;
+	color:#464646;
+	font-weight:bold;
+	font-size:20px;
+	text-transform:lowercase;
+}
+.h2 {
+	
+	font-family:"Helvetica", sans-serif;
+	color:#464646;
+	font-weight:bold;
+	font-size:22px;
+	text-transform:lowercase;
+}
+/*
+
+  $Id: stylesheet.css,v 1.56 2003/06/30 20:04:02 hpdl Exp $
+
+
+
+ONTC Ecom - Developers Version
+
+  http://www.ontc.eu
+
+
+
+  Copyright (c) 2015/3 Francesco Rossi
+
+
+
+  Released under the GNU General Public License
+
+*/
+
+/*This is the Infobox text style*/
+
+.boxText {float:right;
+	font-family: Helvetica, sans-serif;
+ color:#333;
+font-size: 18px;
+margin-top: 7px;
+
+padding-right: 5px;
+  }
+
+
+
+/*This is the Error Messages style with pink background*/
+
+.errorBox { font-family : Arial, sans-serif; font-size : 10px; background: #ca002a; font-weight: bold; }
+
+
+
+/*This is the Warning Messages red font style*/
+
+.stockWarning { font-family : "Helvetica", sans-serif; font-size : 12px; color: #cc0033; }
+
+td.stockWarning { vertical-align: top;
+	 border-style: solid;
+	border-right: 0px;
+  border-color: #e8e8e8; border-width: 5px; background-color: #fff;}
+
+
+/*This is the Product Notifications green background stylet*/
+
+.productsNotifications { background: #f2fff7; }
+
+
+
+/*This is the Order Edit style with green underline*/
+
+.orderEdit { font-family : Arial, sans-serif; font-size : 10px; color: #70d250; text-decoration: underline; }
+
+
+input {
+	
+	
+	border-color:#333;
+	border-style:solid;
+	border-width:1px;
+	font-family:"Helvetica", sans-serif;
+	color: #bc000;
+	margin:0px;
+
+
+	    padding: 3px;  
+  
+   
+ 
+    background-color:#fffde8;   
+   
+ 
+    -webkit-box-shadow: 1px 1px 0px #efefef;  
+    -moz-box-shadow: 1px 1px 0px #efefef;  
+    box-shadow:  1px 1px 0px #efefef;  
+	
+}
+
+form {
+	font-family:"Helvetica", sans-serif;
+	color: #fff;
+	
+}
+
+A.form {
+	
+	color:#FFF;
+}
+	
+/*This is the General Page Body Style with white background, black text, flush left margins*/
+
+
+
+
+
+/*This is the Default Hyperlink Style with black text and no underlines*/
+
+
+
+
+A.nav {
+
+  color: #714D09;
+
+  text-decoration: none;
+
+}
+
+
+/*This is the Default ACTIVE Hyperlink Style when a mouse is hovering over it, with dusty blue text and an underline*/
+
+
+
+
+
+
+/*Forms display within the page rather than opening a new window*/
+
+FORM {
+
+	display: inline;
+
+}
+
+
+
+TR.header {
+
+  background: #ffffff;
+
+}
+
+/*Infobox Template for STS-This is the TOP GRAY BAR BACKGROUND STYLE with Top > Catalog on the left*/
+
+TR.headerNavigation {
+
+font-family:"Helvetica", sans-serif;
+color:#000;
+font-size:12px;
+text-transform:uppercase;
+
+}
+
+
+
+
+/*This is the TOP GRAY BAR FONT STYLE with Top > Catalog on the left*/
+
+TD.headerNavigation {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #9f968f;
+ 
+  text-transform:capitalize;
+}
+
+
+
+/*This is the TOP GRAY BAR HYPERLINK STYLE SETTING LINKS TO WHITE */
+
+A.headerNavigation { 
+
+color: #e3d4bd;
+text-decoration: none;
+
+text-transform:uppercase;
+}
+
+
+
+/*This is the TOP GRAY BAR HYPERLINK STYLE SETTING LINKS TO WHITE when the cursor is over them*/
+
+A.headerNavigation:hover {
+
+
+color: #fff;
+text-decoration: none;
+background-color: #ca002a;
+text-transform:uppercase;
+
+
+}
+
+
+/*This is the ERROR Background style for a row with a red background*/
+
+TR.headerError {
+
+  background: #ff0000;
+
+}
+
+
+
+/*This is the ERROR Background style for a cell with a red background*/
+
+TD.headerError {
+
+  font-family: Tahoma, Arial, sans-serif;
+
+  font-size: 12px;
+
+  background: #ff0000;
+
+  color: #ffffff;
+
+  font-weight : bold;
+
+  text-align : center;
+
+}
+
+
+
+/*This is a ROW Background style with a neon green background*/
+
+TR.headerInfo {
+
+  background: #00ff00;
+
+}
+
+
+
+/*This is a CELL Background style with a neon green background*/
+
+TD.headerInfo {
+
+  font-family: Tahoma, Arial, sans-serif;
+
+  font-size: 12px;
+
+  background: #00ff00;
+
+  color: #ffffff;
+
+  font-weight: bold;
+
+  text-align: center;
+
+}
+
+
+
+/*This is the GRAY BOTTOM BAR Row background*/
+
+TR.footer {
+
+  background: #bbc3d3;
+
+}
+
+
+
+/*This is the GRAY BOTTOM BAR Cell background*/
+
+TD.footer {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 10px;
+
+  background: #bbc3d3;
+
+  color: #ffffff;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is the INFOBOX Background Style, one shade darker than the Infobox Header color*/
+
+.infoBox {
+
+  background: #fff;
+padding: 5px;
+  border: dotted 1px #d4d4d4;
+
+}
+
+
+
+/*Infobox Template for STS-This is the INFOBOX Contents Style, one shade lighter than the Infobox Header color*/
+
+.infoBoxContents {
+font-family: "Helvetica", sans-serif;
+font-size: 12px;
+
+text-transform:uppercase;
+text-decoration: none;
+color: #555;
+	
+
+}
+.infoBoxContents:hover {
+	color:#ab2e2c;
+	text-decoration: none;
+}
+SPAN.infoBoxContents {
+font-family: "Helvetica", sans-serif;
+font-size: 12px;
+
+text-transform:uppercase;
+text-decoration: none;
+color: #555;
+	
+
+}
+
+TD.infoBoxContents {
+font-family: "Helvetica", sans-serif;
+font-size: 12px;
+
+text-transform:uppercase;
+text-decoration: none;
+color: #555;
+	
+
+}
+
+TR.infoBoxContents {
+padding: 2px;
+border-spacing: 2px;
+ 
+}
+
+a.infoBoxContents {
+	font-family: "Helvetica", sans-serif;
+font-size: 15px;
+
+text-transform:uppercase;
+text-decoration: none;
+color: #555;
+
+}
+
+a.infoBoxContents:hover {
+	color:#ab2e2c;
+	text-decoration: none;
+}
+
+/*This is the INFOBOX Notice Style, a pale salmon color*/
+
+.infoBoxNotice {
+
+  background: #FF8E90;
+
+}
+
+
+
+/*This is the INFOBOX Notice Contents Style, a very pale salmon color*/
+
+.infoBoxNoticeContents {
+
+  background: #FFE6E6;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 10px;
+
+}
+
+
+
+/*Infobox Templates for STS-This is the INFOBOX Heading Style, SAME AS HEADER AND FOOTER GRAY BARS*/
+
+TD.infoBoxHeading {
+
+
+
+	font-family: "Helvetica", sans-serif;
+	
+
+	color: #333;
+	text-transform:lowercase;
+	font-weight: bold;
+	
+
+	
+
+}
+
+
+
+TD.infoBox, SPAN.infoBox {
+
+  font-family: ""Helvetica", sans-serif;
+
+  font-size: 10px;
+
+}
+
+
+
+/*This is a GENERAL ROW Style for every other line of noted pages, a palest gray color*/
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+
+  background: #fff;
+
+}
+
+
+
+/*This is a GENERAL ROW Style for every other line of noted pages, the same palest gray color but allows you to alternate 2 colors if you wish*/
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+
+  background: #fff;
+
+}
+
+
+
+/*This is a GENERAL TABLE Style for product listing pages, a deeper gray color*/
+
+TABLE.productListing {
+
+  border: 5px;
+border-bottom: 0px;
+ 
+	border-right: 0px;
+
+ border-top: dotted 1px #d4d4d4;
+  border-left: dotted 1px #d4d4d4;
+
+}
+
+
+
+/*This is the GRAY BAR Style for product listing pages, same deeper gray color as previous item*/
+
+.productListing-heading {
+
+  font-family:"Helvetica", sans-serif;
+
+font-size:18px;
+  background: #fff;
+padding: 10px;
+  color: #333333;
+
+  font-weight: bold;
+  text-transform:lowercase;
+text-decoration: none;
+}
+
+
+
+/*This is the FONT Style for product listing pages*/
+
+TD.productListing-data {
+
+ font-family:"Helvetica", sans-serif;  
+ 
+ text-transform:uppercase;
+  border-bottom: dotted 1px #d4d4d4;
+ font-family: Arial, Helvetica, sans-serif;
+ color:#333;
+font-size: 18px;
+  padding: 10px;
+
+}
+
+a.productListing-data {
+
+ 	
+font-family: "Helvetica", sans-serif;
+font-size: 15px;
+width: 100%;
+text-align:left;
+text-decoration: none;
+color: #555;
+ 
+ text-transform:uppercase;
+ 
+ 
+ 
+
+}
+
+a.productListing-data:hover {
+
+ 	
+color: #ab2e2c;
+ 
+
+
+}
+
+/*This is the HYPERLINK Style for Results pages*/
+
+A.pageResults {
+
+  color: #0000FF;
+
+}
+
+
+
+/*This is the HYPERLINK Style for Results pages when the mouse is hovering over it*/
+
+A.pageResults:hover {
+
+  color: #0000FF;
+
+  background: #FFFF33;
+
+}
+
+
+
+/*This is the MAIN TEXT Style, a deeper gray*/
+
+TD.pageHeading, DIV.pageHeading {
+
+  font-family: "Helvetica", sans-serif;
+
+  font-size: 30px;
+  text-transform:uppercase;
+
+  color: #333;
+
+}
+
+
+
+/*This is a Row Sub-bar Style, a very pale gray*/
+
+TR.subBar {
+
+  background: #f4f7fd;
+
+}
+
+
+
+/*This is a Cell Sub-bar Style, black default text*/
+
+TD.subBar {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 10px;
+
+  color: #333333;
+
+}
+
+
+
+/*This is a Cell and Paragraph Main Style*/
+
+TD.main, P.main {
+
+  font-family: "Helvetica", sans-serif;
+font-size: 16px;
+text-transform: lowercase;
+color: #333;
+
+
+}
+
+A.main {
+	color: #fff;
+}
+
+/*custom infoboxes */
+
+.features {
+	
+	left: 0px;
+	width: 45%;
+	background-color: #fff;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	 border-left:0px; border-right: dotted 1px #d4d4d4;border-bottom: 0px; border-top: dotted 1px #d4d4d4;
+}
+
+.newbox {
+	right: 0px;
+	width: 45%;
+	background-color: #fff;
+	padding: 10px;
+	float: right;
+	text-align: center;
+	 border-right:0px; border-left: dotted 1px #d4d4d4;border-bottom:0px; border-top: dotted 1px #d4d4d4;
+}
+/*This is a Cell, Span, and Paragraph Font Style*/
+
+TD.smallText {
+
+  font-family: "Helvetica", sans-serif;
+padding: 0px;
+ 
+text-transform:uppercase;
+
+  margin:5px;
+  border: dotted 1px #d4d4d4;
+  padding:5px;
+  background-color: #fff;
+  
+
+}
+SPAN.smallText , P.smallText
+{
+
+  font-family: "Helvetica", sans-serif;
+padding: 0px;
+
+ 
+  margin: 0px;
+  text-transform: uppercase;
+
+}
+
+A.smallText {
+color:#fff;
+background-color: #ca002a;
+border-radius: 4px;
+ padding: 4px; 
+text-decoration:none; 
+  font-size: 13px;
+  text-shadow: 0px 5px 0px #00000;
+  -webkit-text-shadow: 0px 5px 0px #00000;
+
+
+}
+
+A.smallText:hover {
+
+
+ background-color:#fb0539;
+
+  
+}
+/*This is a Cell Font Style in larger size with medium dusty blue font*/
+
+#nameprice {
+	
+	width:85%;
+	margin: 5px;
+	padding: 5px;
+	height: 50px;
+	
+}
+.price
+
+{
+float:right;
+	font-family: Arial, Helvetica, sans-serif;
+ color:#333;
+font-size: 18px;
+margin-top: 7px;
+
+padding-left: 5px;
+ border-left: dotted 1px #ab2e2c;
+
+}
+
+.prodName
+{
+	margin-top: 0px;
+	float:left;
+	width: 100%;
+	text-align:left;
+}
+
+a.prodText {
+	float:left;
+font-family: "Helvetica", sans-serif;
+font-size: 15px;
+width: 100%;
+text-align:left;
+text-decoration: none;
+color: #555;
+
+
+
+}
+a.prodText:hover {
+	
+	color: #ab2e2c;
+}
+
+TD.accountCategory {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 13px;
+
+  color: #aabbdd;
+
+}
+
+
+
+/*This is a Cell Font Style in a bold larger size*/
+
+TD.fieldKey {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is a Cell Font Style in a bold larger size*/
+
+TD.fieldValue {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 12px;
+
+}
+
+
+
+/*This is a Table Heading Style in a bold larger size*/
+
+TD.tableHeading {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is a Span Font Style used for New Items in Cart in a BRIGHT RED FONT*/
+
+SPAN.newItemInCart {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 10px;
+
+  color: #ff0000;
+
+}
+
+
+
+/*This is a FORM STYLE used for checkboxes, input text, radio buttons, and drop-down boxes*/
+
+CHECKBOX, INPUT, RADIO, SELECT {
+
+  font-family: helvetica, sans-serif;
+color: #bc0000;
+
+
+}
+
+checkbox {
+  border-style: solid;
+border-color: #ca002a;
+border-width: 5px;
+
+ 
+}
+
+/*This is a FORM STYLE used for text boxes where visitor enters free-form text*/
+
+TEXTAREA {
+
+  width: 100%;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 11px;
+
+}
+
+
+
+/*This is a TEXT STYLE used for the "Greetings, Username! in a funny orange-salmon color*/
+
+SPAN.greetUser {
+
+  font-family: "Helvetica", sans-serif;
+
+  font-size: 16px;
+
+  color: #ca002a;
+
+  
+
+}
+
+
+
+/*This is a FORM BACKGROUND AND BORDER STYLE with a very pale dusty blue background and deep dusty blue border*/
+
+TABLE.formArea {
+
+  background: #f1f9fe;
+
+  border-color: #7b9ebd;
+
+  border-style: solid;
+
+  border-width: 1px;
+
+}
+
+
+
+/*This is a FORM TEXT STYLE with slightly larger bold text*/
+
+TD.formAreaTitle {
+
+  font-family: Tahoma, Arial, sans-serif;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is a SPAN PRODUCTS PAGE STYLE with a pale burgundy color font*/
+
+SPAN.markProductOutOfStock {
+
+  font-family: Tahoma, Arial, sans-serif;
+
+  font-size: 12px;
+
+  color: #c76170;
+
+  font-weight: bold;
+
+}
+
+
+
+/*This is a SPAN PRODUCT SPECIAL FONT STYLE in a bright red color*/
+
+SPAN.productSpecialPrice {
+
+  font-family: Arial, sans-serif;
+
+  color: #ff0000;
+
+}
+
+
+
+/*This is a SPAN ERROR TEXT STYLE in a bright red color*/
+
+SPAN.errorText {
+
+  font-family: Arial, sans-serif;
+
+  color: #ff0000;
+
+}
+
+
+
+.moduleRow { }
+
+.moduleRowOver { background-color: #D7E9F7; cursor: pointer; cursor: hand; }
+
+.moduleRowSelected { background-color: #fff; }
+
+
+
+.checkoutBarFrom, .checkoutBarTo { font-family: Arial, sans-serif; font-size: 10px; color: #8c8c8c; }
+
+.checkoutBarCurrent { font-family: Arial, sans-serif; font-size: 10px; color: #333333; }
+
+
+
+/* message box */
+
+
+
+.messageBox { font-family: Arial, sans-serif; font-size: 10px; }
+
+.messageStackError, .messageStackWarning { font-family: Arial, sans-serif; font-size: 10px; background-color: #ca002a; }
+
+.messageStackSuccess { font-family: Arial, sans-serif; font-size: 10px; background-color: #99ff00; }
+
+
+
+/* input requirement */
+
+
+
+.inputRequirement { font-family: Arial, sans-serif; font-size: 12px; color: #ca002a; text-transform:uppercase; }
+
+
+/*BOF - Zappo - Option Types v2 - Progress Bar */
+.progress{
+  width: 1px;
+  height: 12px;
+  color: grey;
+  font-size: 10px;
+ /* overflow: hidden; */
+  background-color: #bbc3d3;
+  padding-left: 5px;
+}
+.bar{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bbc3d3;
+}
+/*EOF - Zappo - Option Types v2 - Progress Bar */
+
+/*BOF - Zappo - Option Types v2 - ONE LINE - Preload Option Type Images */
+div#ImagePreload { display: none; }
+SPAN.productInfoSmall{font-family:Verdana,Arial,sans-serif;font-size:10px;color:#333333;} 
+/*BOF Options as Images*/
+.zoek_resultaten  a img { border: none; border-width:0px;}
+img.zoek_resultaten { border: none; border-width:0px;}
+a.zoek_resultaten {
+	border:none;
+}
+#zoek_resultaten {
+		position:absolute;
+	border: 1px solid #999;
+	right:855px;
+	width:80px;
+	height:100px;
+	
+	z-index:20;
+
+}
+#div2 {
+	
+}
+
+
+/* BEGIN: CSS Buttons Everywhere */
+.cssButton {
+background-color: #ca002a;
+	color:#e3d4bd;
+	font-family: "helvetica", sans serif;
+	font-size: 14px;
+	
+	padding: 2px;
+	overflow:visible;
+	border: 1px solid #ca0002;
+	text-align: center;
+	float: right;
+	
+	text-transform:uppercase;
+	
+/*EOF Options as Images*/ 
+}
+.cssButton:hover {
+background-color: #fb0539;
+	color:#fff;
+	font-family: "helvetica", sans serif;
+	font-size: 14px;
+	
+	overflow:visible;
+	padding: 2px;
+	text-align: center;
+	float: right;
+	}
+/*EOF Options as Images*/
+
+/* TREE MENU */
+
+a.phplm {
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	color: #000;
+		font-size: 11px;
+		font-weight: 500;
+		padding: 1px;
+	
+	
+}
+a.phplm:hover {
+	text-decoration: none;
+	
+color: #ab2e2c;
+	padding: 1px;
+	
+}
+
+
+.treemenudiv {
+	
+	background-color:#fff;
+
+	margin: 3px;
+	
+	padding: 0px;
+	width: 95%;
+	vertical-align: super;
+	
+  border: dotted 1px #d4d4d4;
+  padding: 1px;
+
+	
+}
+
+.treemenudiv:hover {
+	
+	background-color:#f4f4f4;
+
+
+}
+
+
+	/* First Level UL List */
+	.accordion {
+		margin:0;
+		padding:0;	
+		list-style:none;
+	}
+	
+		li.accordion {
+			width:267px;
+		}
+	
+		.accordion li a {
+			display: block;
+			width: 268px;
+			height: 43px;	
+			text-indent:-999em;
+			outline:none;
+		}
+		
+		/* Using CSS Sprite for menu item */
+		#accordion li a.popular {
+			background:url(menu.jpg) no-repeat 0 0;	
+		}
+
+		#accordion li a.popular:hover, .popularOver {
+			background:url(menu.jpg) no-repeat -268px 0 !important;	
+		}
+		
+		#accordion li a.category {
+			background:url(menu.jpg) no-repeat 0 -43px;	
+		}
+
+		#accordion li a.category:hover, .categoryOver {
+			background:url(menu.jpg) no-repeat -268px -43px !important;	
+		}
+		
+		#accordion li a.comment {
+			background:url(menu.jpg) no-repeat 0 -86px;	
+		}
+
+		#accordion li a.comment:hover, .commentOver {
+			background:url(menu.jpg) no-repeat -268px -86px !important;	
+		}
+		
+		
+		/* Second Level UL List*/
+		#accordion ul {
+			background:url(bg.gif) repeat-y 0 0;
+			width:268px;
+			margin:0;
+			padding:0;
+			display:none;	
+		}
+		
+			.accordion ul li {
+				height:30px;
+			}
+			
+			/* styling of submenu item */
+			.accordion ul li a {
+				width:240px;
+				height:25px;
+				margin-left:15px;
+				padding-top:5px;
+				border-bottom: 1px dotted #777;
+				text-indent:0;
+				color:#ccc;
+				text-decoration:none;
+			}
+
+			/* remove border bottom of the last item */
+			.accordion ul li a.last {
+				border-bottom: none;
+			}		
+		
+
+
+/* magnifier */
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+/*slideshow*/
+
+.ProductsCycleSlideshowWrapper {color:#ca002a; float: right; width: 100%; padding:10px; padding-right:0px; margin:0px;  right: 0px; background-color:#fff; border-right:0px; border-left: dotted 1px #d4d4d4;border-bottom: solid 3px #ca002a; border-top: dotted 1px #d4d4d4;}
+.ProductsCycleSlideshow { height: 433px; width: 655px; padding:0; margin:0; overflow: hidden;z-index:-1px; color:#ca002a; }
+.PCSChild { width: 100%; padding: 7px; text-align:center; top:0; left:0; color:#ca002a;  }
+.PCimg {width:100%; top: 60px; position: absolute; z-index:-1;}
+.PClink {position: absolute; z-index:10; color:#ca002a; text-transform:uppercase;}
+.PCSChild  a {position:relative;  text-decoration: none; color:000;z-index:27px; color:#ca002a;}
+
+.PCSOutput {position: absolute; top:10%; left: 30px; text-align:left; width:100%; font-size:25px; font-family: helvetica; color:#ca002a; z-index:29px; text-transform:uppercase;}
+.PCSOutput a {position:relative; text-decoration: none; color:#ca002a; text-transform:uppercase; z-index:26px;}
+.PCSPager { margin:7px; }
+.PCSPager a {float:right; border: 1px solid #bbc3d3; background: #fff; color:#bbc3d3; text-decoration: none; margin: 0 5px; padding: 3px 5px; font-size:12px;}
+.PCSPager a.activeSlide { border: 1px solid #ca002a; background: #fb0539; color:#fff;z-index:-1px;}
+.PCSPager a:focus { outline: none; }

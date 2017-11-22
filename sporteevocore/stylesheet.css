@@ -1,0 +1,100 @@
+/*
+  $Id: stylesheet.css,v 1.26 2003/06/30 20:03:50 hpdl Exp $
+
+ONTC Ecom - Developers Version
+  http://www.ontc.eu
+
+  Copyright (c) 2015/2 Francesco Rossi
+
+  Released under the GNU General Public License
+*/
+.qbtext10 { font-family: Verdana, Arial, sans-serif; font-size: 13px; color: #000000; }
+.qbtext12 { font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000; }
+.qbtext14 { font-family: Verdana, Arial, sans-serif; font-size: 14px; color: #000000; }
+/* links */
+
+a.headerLink:link { font-family: sans-serif; color:#ca002a; font-weight: bold; text-decoration: none; text-transform: lowercase; }
+a.headerLink:visited { font-family:  sans-serif; color:#ca002a;  font-weight: bold; text-decoration: none; text-transform: lowercase; }
+a.headerLink:active { font-family:  sans-serif; color:#ca002a; font-weight: bold; text-decoration: none;text-transform: lowercase;  }
+a.headerLink:hover { font-family: sans-serif; color:#fff; background-color:#bc0000;  text-decoration: none;text-transform: lowercase;  }
+
+a.menuBoxHeadingLink:link { font-size: 15px; color: #FFFFFF;  text-decoration: none; text-transform:uppercase; }
+a.menuBoxHeadingLink:visited { font-size: 15px; color: #FFFFFF;  text-decoration: none; text-transform:uppercase;}
+a.menuBoxHeadingLink:active { font-size: 15px; color: #FFFFFF; background-color:#bc0000; text-decoration: none; text-transform:uppercase;}
+a.menuBoxHeadingLink:hover { font-size: 15px;    text-decoration: none;  text-transform:uppercase;}
+
+a.menuBoxContentLink:link { font-family: sans-serif; font-size: 12px; color: #000; font-weight: normal; text-decoration: none; line-height: 12pt; }
+a.menuBoxContentLink:visited { font-family:  sans-serif; font-size: 12px; color: #000; font-weight: normal; text-decoration: none; }
+a.menuBoxContentLink:active { font-family:sans-serif; font-size: 12px; color: #bc0000; font-weight: bold; text-decoration: none; }
+a.menuBoxContentLink:hover { font-family:sans-serif; font-size: 12px; color: #fa0438; font-weight: bold; text-decoration: ; }
+
+a.splitPageLink:link { font-family:  sans-serif; font-size: 13px; color: #0000FF; font-weight: normal; text-decoration: none; }
+a.splitPageLink:visited { font-family:  sans-serif; font-size: 13px; color: #0000FF; font-weight: normal; text-decoration: none; }
+a.splitPageLink:active { font-family:  sans-serif; font-size: 13px; color: #0000FF; font-weight: normal; text-decoration: none; }
+a.splitPageLink:hover { font-family:  sans-serif; font-size: 13px; color: #0000FF; font-weight: normal; text-decoration: underline; background-color: #FFFF33; }
+
+/* menu box */
+.menuBoxHeading {width:20%; font-family: sans-serif; font-size: 18px; color: #FFFFFF; background-color: #ca002a;  background-repeat:repeat-x; background-position:bottom; text-transform:uppercase; padding:5px;}
+.menuBoxHeading:hover { color:#fff; background-color: #bc0000;  background-repeat:repeat-x; background-position:bottom; text-transform:uppercase; padding:5px;}
+.menuBoxHeading:active {background-color: #bc0000;}
+.menuBoxContent { font-family:  sans-serif; font-size: 18px; color: #616060; }
+
+/* page */
+body { background-color: #ffffff; color: #616060; margin: 0px; }
+.headerBar { background-color: #fff; padding:5px; text-align: right;  }
+.headerBarContent { font-family:  sans-serif; font-size: 20px; color: #ca002a; padding: 2px; }
+.columnLeft { background-color: #fff; border-color: #f4f4f4; border-width: 4px; border-style: solid; padding: 2px; }
+.pageHeading { font-family: sans-serif; font-size: 30px; color: #666; font-weight: 200; text-transform: lowercase; }
+
+/* data table */
+.dataTableHeadingRow { background-color: #fff; }
+.dataTableHeadingContent { font-family:  sans-serif; font-size: 18px; color: #bc0000; font-weight: 500; }
+.dataTableRow { background-color: #f4f4f4; }
+.dataTableRowSelected { background-color: #e8e8e8; }
+.dataTableRowOver { background-color: #FFFFFF; cursor: pointer; cursor: hand; }
+.dataTableContent { font-family:  sans-serif; font-size: 13px; color: #616060; }
+
+/* info box */
+.infoBoxHeading { font-family:  sans-serif; font-size: 22px; font-weight:500; color: #ffffff; background-color: #ca002a; text-transform:lowercase; }
+.infoBoxContent { font-family:  sans-serif; font-size: 13px; color: #616060; background-color: #e8e8e8; font-weight:500; }
+
+/* message box */
+
+.messageBox { font-family:  sans-serif; font-size: 13px; }
+.messageStackError, .messageStackWarning { font-family:  sans-serif; font-size: 13px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family:  sans-serif; font-size: 13px; background-color: #99ff00; }
+
+/* forms */
+CHECKBOX, INPUT, RADIO, SELECT, TEXTAREA, FILE { font-family:  sans-serif; font-size: 11px; }
+FORM { display: inline; }
+
+/* account */
+.formArea { background-color: #f4f4f4; border-color: #ca002a; border-style: solid; border-width: 1px; }
+.formAreaTitle { font-family: Tahoma,  sans-serif; font-size: 12px; font-weight: bold; }
+
+/* attributes */
+.attributes-odd { background-color: #f4f7fd; }
+.attributes-even { background-color: #ffffff; }
+
+/* miscellaneous */
+.specialPrice { color: #ff0000; }
+.oldPrice { text-decoration: line-through; }
+.fieldRequired { font-family:  sans-serif; font-size: 13px; color: #ff0000; }
+.smallText { font-family:  sans-serif; font-size: 13px; }
+.main { font-family:  sans-serif; font-size: 12px; }
+.errorText { font-family:  sans-serif; font-size: 13px; color: #ff0000; }
+
+/* Contribution Prof_Invoice&PackingSlip */
+.pageHeading-invoice { font-family:  Arial, Helvetica, sans-serif; font-size: 13px; color: #616060; font-weight: normal; padding: 3px; }
+.pageHeading-invoice2 { font-family:  Arial, Helvetica, sans-serif; font-size: 13px; color: #ca002a; font-weight: normal; border: 1px ridge #CCCCCC; padding: 3px; }
+.dataTableHeadingContent-invoice { font-family:  sans-serif;	font-size: 13px; color: #ffffff; font-weight: bold; border: 1px ridge #616060;}
+.main-payment { font-family:  sans-serif; font-size: 12px; background-color: #FFFF99; border: 1px ridge #616060; }
+#dhtmltooltip{
+position: absolute;
+width: 150px;
+border: 2px solid black;
+padding: 2px;
+background-color: white;
+visibility: hidden;
+z-index: 100;
+}

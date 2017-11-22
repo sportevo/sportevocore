@@ -1,0 +1,36 @@
+{
+    "misc": {
+        "version": "1.0.0",
+        "encrypted": false,
+        "userId": "1bh1vh94r"
+    },
+    "main": {
+        "projects_folder": "H:/Projects/sporteevocore/eqftp",
+        "date_format": "d.m.Y",
+        "debug": false,
+        "open_project_connection": false
+    },
+    "connections": {
+        "settings": {
+            "1bh1vj8k9": {
+                "id": "1bh1vj8k9",
+                "name": "Sportevo",
+                "localpath": "H:/Projects/sporteevocore",
+                "remotepath": "\\httpdocs",
+                "check_difference": true,
+                "autoupload": false,
+                "ignore_list": ""
+            }
+        },
+        "credentials": {
+            "1bh1vj8k9": {
+                "protocol": "ftp",
+                "server": "sporteevo.pro",
+                "port": "",
+                "login": "sporteevopro",
+                "rsa": "",
+                "password": "ans3406725037"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+<?xml-stylesheet type="text/xsl" href="gss.xsl"?>
+<sitemapindex xmlns="http://www.google.com/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>GOOGLE_XML_SITEMAP_MOBILE_URLsitemapcategories.xml</loc>
+		<lastmod>2016-10-09</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>GOOGLE_XML_SITEMAP_MOBILE_URLsitemappages.xml</loc>
+		<lastmod>2016-10-09</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>GOOGLE_XML_SITEMAP_MOBILE_URLsitemapproducts.xml</loc>
+		<lastmod>2016-10-09</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>GOOGLE_XML_SITEMAP_MOBILE_URLsitemapspecials.xml</loc>
+		<lastmod>2016-10-09</lastmod>
+	</sitemap>
+</sitemapindex>

@@ -1,0 +1,136 @@
+/*
+  $Id: style_tabs.css v1.0 20090909 kymation $
+  $Loc: catalog/
+
+ONTC Ecom - Developers Version
+  http://www.ontc.eu
+
+  Copyright (c) 2015/9 Francesco Rossi
+  cssmenubuilder portion has a separate copyright notice
+
+  Released under the GNU General Public License
+*/
+
+
+  #tabContainer { /* Container for the whole thing */
+    position: relative; 
+    width: 95%;  /* Change the width of the tabs & content box */
+  } 
+  
+  #tabMenu { /* Container for the menu tabs */
+    position: relative; 
+    height: 30px; 
+    margin-bottom: -3px;
+  } 
+  
+  #tabContent { /* Container for the content box */
+    clear: left;
+    position: relative; 
+/*    height: 266px; */  /* Uncomment for fixed height content box */
+    font: 12px Verdana, Arial, Helvetica, sans-serif; 
+    color: #444444; 
+    border-top: 1px solid #ccc; 
+    border-left: 1px solid #ccc; 
+    border-right: 4px solid #ccc; 
+    border-bottom: 4px solid #ccc; 
+/*    overflow: auto; */  /* Uncomment for fixed height content box */
+  } 
+  
+  #tabContent .content {  /* Don't change this */
+    display: none;   /* Don't change this */
+    margin-bottom: 0.7em;  /* Extra space between the text and the bottom of the content box */
+  } 
+  
+  #tabContent .active {  /* Don't change this */
+    padding: 5px 10px; 
+    display: block; 
+  } 
+  
+  .inside_heading {  /* Heading inside the content box */
+    font-size: 12px;
+    font-weight: bold; 
+    border-bottom: 1px dashed #999999;
+  }
+
+/*  
+Generated via www.cssmenubuilder.com 
+
+Copyright (c) 2015/8-2009 www.cssmenubuilder.com
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+  .menu {  /* Container for the tabs */
+    margin: 0 auto; 
+    padding: 0; 
+    height: 30px; /* Height of the tabs */
+    width: 100%; 
+    display: block; 
+    background: url('images/topMenuImages.png') repeat-x; /* Change the image name if you have changed your image */
+  }
+  
+  .menu li {  /* Individual tabs */
+    padding: 0; 
+    margin: 0; 
+    list-style: none; 
+    display: inline;
+  }
+  
+  .menu li a {  /* Links from the tabs to the content box */
+    float: left; 
+    padding-left: 15px; 
+    display: block; 
+    color: #fff; 
+    text-decoration: none; 
+    font: 9pt Verdana, Arial, Helvetica, sans-serif; 
+    cursor: pointer; 
+    background: url('images/topMenuImages.png') 0px -30px no-repeat;  /* Change the image name if you have changed your image */
+  }
+  
+  .menu li a span {  /* Text in the tabs */
+    line-height: 30px; 
+    float: left; 
+    display: block; 
+    padding-right: 15px; 
+    background: url('images/topMenuImages.png') 100% -30px no-repeat; /* Change the image name if you have changed your image */
+  }
+  
+  .menu li a:hover {  /* Hover/mouseover tabs */
+    background-position: 0px -60px; 
+    color: #fff;
+  }
+  
+  .menu li a:hover span {  /* Hover/mouseover text in the tabs */
+    background-position: 100% -60px;
+  }
+  
+  .menu li a.active, .menu li a.active:hover {  /* Active tab */
+    line-height: 30px; 
+    font: 9pt Verdana, Arial, Helvetica, sans-serif; 
+    background: url('images/topMenuImages.png') 0px -90px no-repeat; 
+    color: #000;
+  }
+  
+  .menu li a.active span, .menu li a.active:hover span {  /* Text in the active tab */
+    background: url('images/topMenuImages.png') 100% -90px no-repeat; /* Change the image name if you have changed your image */
+  }
+  

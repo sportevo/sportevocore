@@ -1,0 +1,23 @@
+<?xml-stylesheet type="text/xsl" href="gss.xsl"?>
+<sitemapindex xmlns="http://www.google.com/schemas/sitemap/0.84">
+	<sitemap>
+		<loc>http://www.schermaontc.com/ecom/sitemap.xml</loc>
+		<lastmod>2011-03-16</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://www.schermaontc.com/ecom/sitemapcategories.xml</loc>
+		<lastmod>2011-03-27</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://www.schermaontc.com/ecom/sitemappages.xml</loc>
+		<lastmod>2011-03-27</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://www.schermaontc.com/ecom/sitemapproducts.xml</loc>
+		<lastmod>2011-03-27</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://www.schermaontc.com/ecom/sitemapspecials.xml</loc>
+		<lastmod>2011-03-27</lastmod>
+	</sitemap>
+</sitemapindex>
