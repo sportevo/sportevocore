@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html $htmlparams> 
+<head>
+<!--$headcontent--> 
+<meta http-equiv="Content-Type" content="text/html; chareset=iso-8859-1"/>
+<link href="stylesheet2.css" rel="stylesheet" type="text/css" />
+<link href="style/stshp.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/select2.css"/>
+<link href="style/css/font-awesome.css" rel="stylesheet" />
+			<LINK REL="SHORTCUT ICON" href="imgs/favico.ico">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+</head>
+	  
+
+<body>
+	 
+	
+
+	<div id="upbarsub">
+		<div id="btncontainerb" >
+				$categorybox
+				
+				
+					
+				
+           
+           
+           </div>
+         
+				</div>
+				 <div class="btn-responsive-menu"><a href="#" onclick="toggle_visibility('preelecont');"> 
+            <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           	<span class="icon-bar"></span></a>
+        </div>
+				
+
+				
+			  				
+			
+		
+		
+			
+			<div id="container">
+				<div id="mainlinks">
+						<div tabindex="0" class="onclick-menu"><span class="sideNavigation mainlinksnav" >$cartcontentmenu</span><ul class="onclick-menu-content">
+        				$cartbox
+        				<hr class="hrleftbreaker">
+        				$cartcontents
+        				
+       						 </ul>
+					</div>
+					
+					
+						<span class="mainlinksnav">$myaccountlogoff </span>
+						
+					
+						
+						</div>
+<div id="logo"><a href="http://www.sporteevo.pro"><img alt="Sporteevo" src="http://www.sporteevo.pro/images/logosmneg.png"></a></div>
+<div id="featurecontainer">
+<div id="preelecat2">	 
+	<?php echo '<i class="prodTextc">' . BOX_HEADING_MANUFACTURERS . '</i>' ?>	
+	$manufacturerbox <hr class="hrleftbreaker"> $searchbox
+	
+	</div>	
+	
+
+<div id="aboutus"><div id="aboutusprofile"></div></div>
+<div id="aboutuscontent"><div id="aboutcontleft"></div><div id="aboutcontright"></div></div>
+
+<div id="footersub"><div id="logoneg"><a href="http://www.sporteevo.pro"><img alt="Sporteevo" src="http://www.sporteevo.pro/images/logosmneg.png"></a>
+	
+
+</div>
+
+	<div id="partners">
+					$footer_text	
+						
+							
+							</div>
+
+
+
+<!-- <div></div> -->
+</div>
+<div id="footerside">$breadcrumbs</div>
+</div>
+
+</div>
+
+ 
+
+	 <script src="js/jquery-1.8.3.min.js"></script>
+	 <script src="js/select2.min.js"></script>
+	<script src="js/tinynav.min.js"></script>
+	
+	<script  src="js/supersized.3.2.7.min.js"></script>
+
+
+<script type="text/javascript">
+  $('.prodinfo').select2();
+</script>
+
+ 
+
+ <script type="application/javascript">
+ $(function() {
+    $('select').change(function() {
+        var val = $(this).val();
+        if (val) {
+            $('div:not(#div' + val + ')').slideUp();
+            $('#div' + val).slideDown();
+        } else {
+            $('div').slideDown();
+        }
+    });
+});
+</script>
+
+<script>
+  $(function () {
+    $(".sf-menu").tinyNav({ header: 'Sporteevo'});
+  });
+</script>
+
+	
+	<script>
+    $(document).ready(function(){   
+    
+		//When btn is clicked
+		$(".btn-responsive-menu").click(function() {
+			$("#btncontainerb").toggleClass("show");
+		
+		});
+    
+    });
+    </script>
+    
+    
+    <script type="text/javascript">
+
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+
+</script>
+<script type="text/javascript">
+					jQuery(function($){
+				$.supersized({
+					//Background image
+					slides	:  [ {image : 'http://www.sporteevo.pro/imgs/dive.jpg'} ]					
+				});
+			});
+			
+	</script> 
+		
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51138014-1', 'auto');
+  ga('send', 'pageview');
+
+</script>  		
+</body>
+</html>

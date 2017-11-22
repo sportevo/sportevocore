@@ -1,0 +1,181 @@
+s:4341:"
+<style type="text/css">
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.suckerdiv ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+width: 200px; /* Width of Menu Items */
+border-bottom: 1px solid #ccc;
+font-family: arial;
+font-size: 11px;
+}
+	
+.suckerdiv ul li{
+position: relative;
+background-color: #eee;
+}
+	
+/*1st level sub menu style */
+.suckerdiv ul li ul{
+left: 199px; /* Parent menu width - 1*/
+position: absolute;
+width: 200px; /*sub menu width*/
+top: 0;
+display: none;
+}
+
+/*All subsequent sub menu levels offset */
+.suckerdiv ul li ul li ul{ 
+left: 199px; /* Parent menu width - 1*/
+}
+
+/*All subsequent sub menu levels offset */
+.suckerdiv ul li ul li a{ 
+left: 199px; /* Parent menu width - 1*/
+background-color: #ddd;
+}
+
+/*All subsequent sub menu levels offset */
+.suckerdiv ul li ul li ul li a{ 
+background-color: #bbb;
+}
+
+/*All subsequent sub menu levels offset */
+.suckerdiv ul li ul li ul li ul li a{ 
+background-color: #aaa;
+}
+
+/* menu links style */
+.suckerdiv ul li a{
+display: block;
+color: black;
+text-decoration: none;
+background-color: #eee;
+padding: 1px 5px;
+border: 1px solid #ccc;
+border-bottom: 0;
+line-height: 2em;
+}
+
+.suckerdiv ul li a:visited{
+color: black;
+}
+
+.suckerdiv ul li a:hover{
+background-color: yellow;
+color: black;
+text-decoration: none;
+}
+
+.suckerdiv ul li ul li a:hover{
+background-color: yellow;
+color: black;
+text-decoration: none;
+}
+
+.suckerdiv ul li ul li ul li a:hover{
+background-color: yellow;
+color: black;
+text-decoration: none;
+}
+
+/* The main categories with sub-categories */
+.suckerdiv .subfolderstyle{
+background: url(images/arrow-list.gif) no-repeat center right;
+}
+
+/* This one colors the sub-folder with other sub-folders */
+.suckerdiv ul li ul .subfolderstyle {
+background-color: #ddd;
+}
+
+/* This one colors the sub-folder with other sub-folders */
+.suckerdiv ul li ul li ul .subfolderstyle {
+background-color: #bbb;
+}
+
+/* This one colors the sub-folder with other sub-folders */
+.suckerdiv ul li ul li ul li ul .subfolderstyle {
+background-color: #aaa;
+}
+	
+/* Holly Hack for IE \*/
+* html .suckerdiv ul li { float: left; height: 1%; }
+* html .suckerdiv ul li a { height: 1%; }
+/* End */
+
+</style>
+
+<script type="text/javascript">
+
+//SuckerTree Vertical Menu (Aug 4th, 06)
+//By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+function buildsubmenus(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.display="none"
+    }
+    }
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+window.attachEvent("onload", buildsubmenus)
+
+</script>
+<!-- categories //-->
+          <tr>
+            <td>
+
+<table width="100%" height="19" border="0" cellpadding="2" cellspacing="0">
+  <tr>
+    <td width="19" height="19" valign="top"><div align="left"><img src="../../../../ecom/images/squad.gif" width="15" height="12" /></div></td>
+    <td class="infoBoxHeading"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" class="infoBoxHeading">Cat&eacute;gories</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="30" rowspan="2"> </td>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+    <td class="boxText"><div class='suckerdiv'><ul id='suckertree1'><ul></ul><ul></ul><ul></ul><ul></ul><ul></ul><ul></ul><ul></ul></ul></div></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+</table>
+</td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td width="100%"></td>
+    <td width="31"></td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- MenuConfigategories_eof //-->
+";

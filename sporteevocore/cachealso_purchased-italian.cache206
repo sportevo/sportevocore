@@ -1,0 +1,38 @@
+s:3522:"<!-- also_purchased_products //-->
+
+<table width="100%" height="19" border="0" cellpadding="2" cellspacing="0">
+  <tr>
+    <td width="19" height="19" valign="top"><div align="left"><img src="../../../../ecom/images/squad.gif" width="15" height="12" /></div></td>
+    <td class="infoBoxHeading"><table border="0" width="100%" cellspacing="0" cellpadding="2">
+  <tr>
+    <td class="infoBoxHeading" width="100%">I Clienti cha hanno acquistato questo prodotto hanno anche acquistato...</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="30" rowspan="2"> </td>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+  <tr>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://www.schermaontc.com/ecom/paraseno-donna-p-236.html"><img src="product_thumb.php?img=images/paraseno donna2.jpg&w=200&h=150" width="200" height="150" border="0" alt="Paraseno Donna" title="Paraseno Donna"></a><br><a href="http://www.schermaontc.com/ecom/paraseno-donna-p-236.html">Paraseno Donna</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://www.schermaontc.com/ecom/piastrone-maestro-pelle-p-127.html"><img src="product_thumb.php?img=images/plastron.jpg&w=200&h=133" width="200" height="133" border="0" alt="Piastrone per Maestro in pelle" title="Piastrone per Maestro in pelle"></a><br><a href="http://www.schermaontc.com/ecom/piastrone-maestro-pelle-p-127.html">Piastrone per Maestro in pelle</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://www.schermaontc.com/ecom/lama-sciabola-s2000-p-212.html"><img src="product_thumb.php?img=images/sabre.jpg&w=200&h=149" width="200" height="149" border="0" alt="Lama Sciabola S2000" title="Lama Sciabola S2000"></a><br><a href="http://www.schermaontc.com/ecom/lama-sciabola-s2000-p-212.html">Lama Sciabola S2000</a></td>
+  </tr>
+  <tr>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://www.schermaontc.com/ecom/cavo-elettrico-sciabola-p-101.html"><img src="product_thumb.php?img=images/coccodrillosciabola.jpg&w=200&h=150" width="200" height="150" border="0" alt="Cavo Elettrico Sciabola" title="Cavo Elettrico Sciabola"></a><br><a href="http://www.schermaontc.com/ecom/cavo-elettrico-sciabola-p-101.html">Cavo Elettrico Sciabola</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://www.schermaontc.com/ecom/maschera-sciabola-1600-p-237.html"><img src="product_thumb.php?img=images/maschera sciabola FIE 1600.jpg&w=200&h=150" width="200" height="150" border="0" alt="Maschera per Sciabola FIE 1600 N" title="Maschera per Sciabola FIE 1600 N"></a><br><a href="http://www.schermaontc.com/ecom/maschera-sciabola-1600-p-237.html">Maschera per Sciabola FIE 1600 N</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://www.schermaontc.com/ecom/fioretto-maraging-punta-italiana-p-208.html"><img src="product_thumb.php?img=images/fiorettostm.jpg&w=200&h=133" width="200" height="133" border="0" alt="Fioretto FIE Maraging STM Punta Italiana" title="Fioretto FIE Maraging STM Punta Italiana"></a><br><a href="http://www.schermaontc.com/ecom/fioretto-maraging-punta-italiana-p-208.html">Fioretto FIE Maraging STM Punta Italiana</a></td>
+  </tr>
+</table>
+</td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td width="100%"></td>
+    <td width="31"></td>
+  </tr>
+</table>
+<!-- also_purchased_products_eof //-->
+";

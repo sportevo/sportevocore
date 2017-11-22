@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>sportevo.pro | Undertaking the Sport System as we know it!</title>
+<meta name="description" content="Landing page for the upcoming Sport Startup" />
+<meta name="keywords" content="sport, niche sports, startup, sport di nicchia, il futuro marketplace per gli sport di nicchia "/>
+<meta name="robots" content="index,follow">
+
+		
+
+
+	
+<!--[if !IE]> 
+ <![endif]-->
+<link rel="stylesheet" href="css/indexlanding.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+
+	</head>
+<body>
+	
+	<div id="logo"><img src="http://www.sportevo.pro/images/logosm.png"> </div>
+	<div id="payoff"><span class="paytext">Undertaking the Sport System as you know it.</span></div>
+	<div id="container"><div id="form"><a href="http://sportevo.pro/blog/know/">know more</a></div>
+	<div id="blog"><a href="http://www.sportevo.pro/blog/">our blog</a></div>
+	</div>
+<script type="text/javascript">
+			jQuery(function($) {
+				$.supersized({
+
+					//Functionality
+					slideshow : 1, //Slideshow on/off
+					autoplay : 1, //Slideshow starts playing automatically
+					start_slide : 1, //Start slide (0 is random)
+					random : 0, //Randomize slide order (Ignores start slide)
+					slide_interval : 11500, //Length between transitions
+					transition : 1, //0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed : 500, //Speed of transition
+					new_window : 0, //Image links open in new window/tab
+					pause_hover : 0, //Pause slideshow on hover
+					keyboard_nav : 1, //Keyboard navigation on/off
+					performance : 1, //0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+					image_protect : 1, //Disables image dragging and right click with Javascript
+					image_path : 'images/', //Default image path
+
+					//Size & Position
+					min_width : 0, //Min width allowed (in pixels)
+					min_height : 0, //Min height allowed (in pixels)
+					vertical_center : 1, //Vertically center background
+					horizontal_center : 1, //Horizontally center background
+					fit_portrait : 1, //Portrait images will not exceed browser height
+					fit_landscape : 0, //Landscape images will not exceed browser width
+
+					//Components
+					navigation : 0, //Slideshow controls on/off
+					thumbnail_navigation : 1, //Thumbnail navigation
+					slide_counter : 0, //Display slide numbers
+					slide_captions : 0, //Slide caption (Pull from "title" in slides array)
+					slides : [//Slideshow Images
+					{
+						image : 'images/slide/london.jpg',
+						title : '',
+						url : '#'
+					}, {
+						image : 'images/slide/brasil.jpg',
+						title : '',
+						url : '#'
+					}]
+
+				});
+			});</script>	
+			
+</body>
+<script type="text/javascript">
+
+ 
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51138014-1', 'sportevo.pro');
+  ga('send', 'pageview');
+
+
+</script>
+</html>

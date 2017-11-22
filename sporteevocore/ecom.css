@@ -1,0 +1,84 @@
+#header {
+	position:absolute;
+	width: 100%;
+	height: 45%;
+	top:0%;
+	left:0%;
+	background-color:#FFFFFF;
+	background-image:  url(../../imgs/div.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#rightmenu {
+	position: absolute;
+	width: 30%;
+	height: 44%;
+	right: 0%;
+	top: 0%;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-left-style: dashed;
+	border-top-color: #E9E7D7;
+	border-right-color: #E9E7D7;
+	border-bottom-color: #E9E7D7;
+	border-left-color: #E9E7D7;
+	z-index: 2;
+	}
+#line{
+	position:absolute;
+	width: 100%;
+	height: 50;
+	bottom: 1%;
+	left: 0%;
+	background-image:  url(../../imgs/lines.gif);
+	background-repeat: repeat-x;
+	z-index: 3;
+
+	}
+#leave {
+	position:absolute;
+	width: 462px;
+	height: 75px;
+	bottom: 55%;
+	right: 0px;
+	}
+#news {
+	position:absolute;
+	width: 188px;
+	height: 268px;
+	top: 45%;
+	left: 0%;
+	z-index: 2;
+
+	}
+#wndshop {
+	position: absolute;
+	width: 65%;
+	height: 30%;
+	top: 52%;
+	left: 30%;
+	}
+#logo {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	bottom: 0%;
+	right: 0%;
+	z-index: 4;
+
+	}
+a {
+	color: #000000;
+}
+table.cus {
+	background-image:  url(../../imgs/divbckmenu.gif);
+	background-repeat: repeat-x;
+}
+		
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #CDBF71;
+}
